@@ -83,10 +83,10 @@ class SnakeGame:
 
     def create_control_buttons(self):
         # Загружаем изображения стрелок и создаем кнопки
-        img_up = Image.open("arrow_up.png").resize((50, 50))
-        img_down = Image.open("arrow_down.png").resize((50, 50))
-        img_left = Image.open("arrow_left.png").resize((50, 50))
-        img_right = Image.open("arrow_right.png").resize((50, 50))
+        img_up = Image.open("arrow-icons/arrow_up.png").resize((50, 50))
+        img_down = Image.open("arrow-icons/arrow_down.png").resize((50, 50))
+        img_left = Image.open("arrow-icons/arrow_left.png").resize((50, 50))
+        img_right = Image.open("arrow-icons/arrow_right.png").resize((50, 50))
 
         self.img_up = ImageTk.PhotoImage(img_up)
         self.img_down = ImageTk.PhotoImage(img_down)
